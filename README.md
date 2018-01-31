@@ -10,7 +10,8 @@ users that I care about can do `pacaur -S python-entry`.
 
 ## using
 ```
-@entrypoint
+from entry import entry
+@entry
 def main(file, init=False, config='default.conf'):
     print(file, init, config)
 ```
