@@ -1,8 +1,7 @@
 # entry
 ### _for python_
 
-An extremely minimalist and convenient entry point for short python scripts.  
-More or less ductapes your script to argparse.
+Do getopt with one decorator.
 
 ## installing
 Combine `./setup.py install --root=$prefix` with the package manager of your 
